@@ -6,12 +6,12 @@ on:
     
 env:
   ROM_LINK: your rom's direct link
-  ROM_LINK: https://downloads.sourceforge.net/project/kevios12a40roms/RELEASE/evolution_a40-ota-rq3a.210905.001-09191220-unofficial-unsigned.zip?ts=gAAAAABhSKfwG2QmwbDIWKLOsgwwVZpzfw45QWhlvk2t-51g5yZWGXMnwAyLCRp3mGdunmuAJJO_fBy4HdKWcfKfI9YvuCEywg%3D%3D&use_mirror=autoselect&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fkevios12a40roms%2Ffiles%2FRELEASE%2Fevolution_a40-ota-rq3a.210905.001-09191220-unofficial-unsigned.zip%2Fdownload
-  ROM_TYPE: Generic
+  ROM_LINK: https://01lg.lol/1431484504183918575704603937246560545639281665/56533845283837453724/12285624182316562452472438475929235647345904472919472437565321351503
+  ROM_TYPE: LGUX
   BUILD_AB: true
-  BUILD_AONLY: false
-  ROM_AONLY: A.7z
-  ROM_AB: AB.7z
+  BUILD_AONLY: true
+  ROM_AONLY: LGUX_10_cayman.7z
+  ROM_AB: LGUX_10_cayman.7z
 jobs:
   build:
     runs-on: ubuntu-latest
